@@ -9,8 +9,8 @@ body {
 }
 
 body {
-  background: #f6f6f6;
-  color: #222;
+  background: #f4f4f3;
+  color: #171717;
   margin: 0 auto;
   width: 960px;
 }
@@ -21,12 +21,12 @@ img {
 
 a,
 a:visited {
-  color: #0088cc;
+  color: #171717;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0088cc;
+  color: #10bf9d;
   text-decoration: underline;
 }
 
@@ -37,7 +37,7 @@ hr {
 
 .announcement {
   margin: 0 -20px;
-  background: #EEDC82;
+  background: #ff4382;
   padding: 2px 10px 4px 10px;
 }
 
@@ -73,7 +73,7 @@ hr {
 }
 
 .navigation {
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .navigation ul {
@@ -98,8 +98,8 @@ hr {
 }
 
 .posts {
-  border-left: 1px solid #e4e4e4;
-  border-right: 1px solid #e4e4e4;
+  border-left: 1px solid #f4f4f3;
+  border-right: 1px solid #f4f4f3;
   padding: 0 20px 20px;
 }
 
@@ -148,29 +148,23 @@ hr {
 }
 
 .post-social-media {
-  margin-left: 140px;
   overflow: hidden;
-}
-
-.post .post-flattr {
-  float: left;
-  margin: 3px 0 0 5px;
+  text-align: center;
 }
 
 .post .post-social-buttons {
-  float: left;
   margin-bottom: 0px;
 }
 
 .post-social-buttons .link {
-  color: #444;
+  color: #171717;
   font-size: 24px;
   margin-right: 5px;
   text-decoration: none;
 }
 
 .post-social-buttons .link:hover {
-  color: #000;
+  color: #10bf9d;
 }
 
 .comments .comment {
@@ -215,7 +209,7 @@ hr {
 }
 
 .new-comment form .field button {
-  background: #0088cc;
+  background: #171717;
   border: none;
   border-radius: 6px;
   color: #fff;
@@ -233,12 +227,12 @@ hr {
 
 .new-comment .messages .success {
   background: #dff0d8;
-  color: #468847;
+  color: #10bf9d;
 }
 
 .new-comment .messages .error {
-  background: #f2dede;
-  color: #b94a48;
+  background: #dff0d8;
+  color: #10bf9d;
 }
 
 .archive {
@@ -252,7 +246,7 @@ hr {
 .section-sidebar {
   float:left;
   padding-left: 20px;
-  width: 340px;
+  width: 300px;
 }
 
 .section-sidebar .feeds {

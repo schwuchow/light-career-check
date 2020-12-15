@@ -35,3 +35,8 @@
   {% endif %}
 </ul>
 
+{% if podcast.connections.flattr_id != '' %}
+<h2>{{'flattr_us' | t}}</h2>
+
+<script id='fbjkj1v'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid={{ connections.flattr_id }}&url=http%3A%2F%2F'+encodeURIComponent(window.location.host);f.title='Flattr';f.height=65;f.width=55;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbjkj1v');</script>
+{% endif %}
